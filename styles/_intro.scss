@@ -31,9 +31,9 @@ nav {
         font-size: 8rem;
         padding-top: 2rem;
         background: $gradient;
-        -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
+        -webkit-text-fill-color: transparent;
         display: inline-block;
     }
     h3 {
@@ -68,14 +68,12 @@ nav {
 
 .intro-text,
 .intro-images {
-    flex: 1 1 20rem;
+    flex: 1 1 40rem;
 }
+
 .intro-images svg {
-    min-width: 75%;
     width: 100%;
-    min-height: 75%;
     height: 100%;
-    object-fit: cover;
 }
 
 #plant-left {
