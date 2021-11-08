@@ -1,0 +1,26 @@
+.projects {
+    width: 90%;
+    margin: auto;
+    min-height: 90vh;
+    @include flex(space-between, center, row);
+    text-align: center;
+    flex-wrap: wrap;
+    h2 {
+        margin: 5rem;
+    }
+}
+
+.travelly,
+.elena {
+    flex: 1 1 40rem;
+}
+.travelly,
+.elena {
+    // flex: 1 1 50rem;
+    img {
+        max-height: 90%;
+        max-width: 90%;
+        width: 100%;
+        height: 100%;
+    }
+}
